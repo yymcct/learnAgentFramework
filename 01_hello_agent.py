@@ -6,7 +6,6 @@ import os
 from openai import AsyncOpenAI
 
 from agent_framework import Agent
-#from agent_framework.foundry import FoundryChatClient
 from agent_framework.openai import OpenAIChatClient 
 
 from dotenv import load_dotenv
